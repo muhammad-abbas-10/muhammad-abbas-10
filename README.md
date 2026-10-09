@@ -17,7 +17,7 @@
 
 <br>
 
-<a href="https://github.com/muhammad-abbas-10"><img src="https://img.shields.io/badge/GitHub-muhammad--abbas--10-0d1117?style=for-the-badge&logo=github&logoColor=aa9bef" alt="GitHub"></a>&nbsp;&nbsp;
+<a href="https://github.com/muhammad-abbas-10"><img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=aa9bef" alt="GitHub"></a>&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/muhammad-abbas-bajwa-02b93543a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;
 <a href="mailto:abbasbajwaali5576@gmail.com"><img src="https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Gmail"></a>&nbsp;&nbsp;
 <a href="https://www.instagram.com/abbasbajwa_23/"><img src="https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram"></a>&nbsp;&nbsp;
