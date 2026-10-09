@@ -30,12 +30,11 @@ jobs:
 
       # Self-hosted stat, activity and project cards. These replace
       # github-readme-stats / streak-stats, whose shared public instances go
-      # down. No secret is required: contribution numbers fall back to the
-      # public contribution calendar. If you add a METRICS_TOKEN secret (a
-      # personal access token) it is used instead of the built-in token.
+      # down. With no METRICS_TOKEN, cards use the public contribution calendar,
+      # which includes private activity when it is enabled on the profile.
       - name: Stat, activity and project cards
         env:
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
         run: |
           python scripts/cards.py \
             --user "$PROFILE_USER" \
