@@ -18,9 +18,9 @@
 <br>
 
 <a href="https://github.com/muhammad-abbas-10"><img src="https://img.shields.io/badge/GitHub-muhammad--abbas--10-0d1117?style=for-the-badge&logo=github&logoColor=aa9bef" alt="GitHub"></a>&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/muhammad-abbas-bajwa-02b93543a/"><img src="https://img.shields.io/badge/-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"></a>&nbsp;&nbsp;
-<a href="mailto:abbasbajwaali5576@gmail.com"><img src="https://img.shields.io/badge/-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email"></a>&nbsp;&nbsp;
-<a href="https://www.instagram.com/abbasbajwa_23/"><img src="https://img.shields.io/badge/-0d1117?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram"></a>&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/muhammad-abbas-bajwa-02b93543a/"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"></a>&nbsp;&nbsp;
+<a href="mailto:abbasbajwaali5576@gmail.com"><img src="https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Gmail"></a>&nbsp;&nbsp;
+<a href="https://www.instagram.com/abbasbajwa_23/"><img src="https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram"></a>&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/CS%20Student-FAST%20NUCES-0d1117?style=for-the-badge&labelColor=0d1117&color=7c6cd4" alt="CS Student, FAST NUCES">
 
 <br>
