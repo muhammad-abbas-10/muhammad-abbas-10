@@ -1,0 +1,113 @@
+{
+  "_comment": "Face-mesh overlay for the default crop, in dot-lattice units (300x340). Delete this file to drop the mesh (the scan line stays).",
+  "bracket": [
+    58,
+    52,
+    238,
+    270
+  ],
+  "points": {
+    "forehead": [
+      155,
+      92
+    ],
+    "eye_l": [
+      165,
+      151
+    ],
+    "eye_r": [
+      215,
+      154
+    ],
+    "nose": [
+      197,
+      181
+    ],
+    "mouth_l": [
+      172,
+      205
+    ],
+    "mouth_r": [
+      217,
+      210
+    ],
+    "jaw_l": [
+      118,
+      220
+    ],
+    "jaw_r": [
+      224,
+      222
+    ],
+    "chin": [
+      192,
+      257
+    ]
+  },
+  "mesh": [
+    [
+      "forehead",
+      "eye_l"
+    ],
+    [
+      "forehead",
+      "eye_r"
+    ],
+    [
+      "eye_l",
+      "eye_r"
+    ],
+    [
+      "eye_l",
+      "nose"
+    ],
+    [
+      "eye_r",
+      "nose"
+    ],
+    [
+      "nose",
+      "mouth_l"
+    ],
+    [
+      "nose",
+      "mouth_r"
+    ],
+    [
+      "mouth_l",
+      "mouth_r"
+    ],
+    [
+      "eye_l",
+      "jaw_l"
+    ],
+    [
+      "eye_r",
+      "jaw_r"
+    ],
+    [
+      "mouth_l",
+      "jaw_l"
+    ],
+    [
+      "mouth_r",
+      "jaw_r"
+    ],
+    [
+      "mouth_l",
+      "chin"
+    ],
+    [
+      "mouth_r",
+      "chin"
+    ],
+    [
+      "jaw_l",
+      "chin"
+    ],
+    [
+      "jaw_r",
+      "chin"
+    ]
+  ]
+}

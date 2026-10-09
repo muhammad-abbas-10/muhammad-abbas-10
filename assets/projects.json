@@ -1,0 +1,51 @@
+{
+  "_comment": "Featured projects, in README order. 'repo' is optional: when it exists on the account, language/stars/forks come live from the API; otherwise the card is drawn from this file alone. 'size' is 'wide' or 'half'. Edit and push, and the Cards workflow redraws them.",
+  "projects": [
+    {
+      "id": "whatsapp-ai-ordering-bot",
+      "repo": "Pizza-Whatsapp-AI-Bot",
+      "title": "WhatsApp AI Ordering Bot",
+      "size": "wide",
+      "icon": "pizza",
+      "badge": "Featured",
+      "description": "An AI-powered WhatsApp ordering system built for a pizza restaurant. It handles customer conversations, automates order processing, and supports menu and order-status management through an admin dashboard.",
+      "tags": [
+        "WhatsApp Business API",
+        "n8n",
+        "AI / LLM",
+        "PostgreSQL",
+        "Neon",
+        "Vercel",
+        "Admin Dashboard"
+      ]
+    },
+    {
+      "id": "cafe-pos",
+      "repo": "Cafe-POS",
+      "title": "Cafe POS",
+      "size": "half",
+      "icon": "coffee",
+      "description": "A point-of-sale system for cafe operations, covering order management, backend APIs, database integration, and a web-based interface.",
+      "tags": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Vercel"
+      ],
+      "min_height": 172
+    },
+    {
+      "id": "receipt-reconciler",
+      "title": "Receipt Reconciler",
+      "size": "half",
+      "icon": "receipt",
+      "description": "A receipt reconciliation application focused on processing and organizing receipt information.",
+      "tags": [
+        "Expo",
+        "React Native"
+      ],
+      "min_height": 172
+    }
+  ]
+}

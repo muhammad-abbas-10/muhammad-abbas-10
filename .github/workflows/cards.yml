@@ -1,0 +1,51 @@
+name: Cards
+
+on:
+  schedule:
+    # daily, so the activity heatmap and stats stay fresh
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "assets/projects.json"
+      - "scripts/cards.py"
+      - ".github/workflows/cards.yml"
+
+permissions:
+  contents: write
+
+env:
+  PROFILE_USER: muhammad-abbas-10
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Self-hosted stat, activity and project cards. These replace
+      # github-readme-stats / streak-stats, whose shared public instances go
+      # down. No secret is required: contribution numbers fall back to the
+      # public contribution calendar. If you add a METRICS_TOKEN secret (a
+      # personal access token) it is used instead of the built-in token.
+      - name: Stat, activity and project cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/cards.py \
+            --user "$PROFILE_USER" \
+            --projects assets/projects.json \
+            --out assets
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/card-*.svg
+          git diff --staged --quiet || git commit -m "chore: refresh cards"
+          git push
