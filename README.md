@@ -33,7 +33,7 @@
 
 ## about me
 
-Hi, I'm **Muhammad Abbas Bajwa**, a Computer Science student at **FAST NUCES Peshawar**.
+Hi, I'm **Muhammad Abbas Bajwa**, a Computer Science student at **FAST NUCES**.
 I like turning ideas into working software, especially AI-powered apps, agentic systems and automation that solve real problems.
 
 - 🎓 **CS student at FAST NUCES Peshawar**, learning by building and shipping.
